@@ -8,6 +8,7 @@ console.log(typeof employeeID);
 console.log(isActive);
 console.log(typeof isActive);
 
+//2
 let productName = "Apple";
 const productPrice = 100;
 var isAvailable = true;
@@ -18,3 +19,13 @@ console.log(typeof productPrice);
 console.log(isAvailable);
 console.log(typeof isAvailable); 
 
+//Task 3
+let accountBalance = 1000; 
+accountBalance +=10; 
+console.log (accountBalance);
+accountBalance -=5;
+console.log (accountBalance);
+accountBalance *=2;
+console.log (accountBalance);
+accountBalance /=6;
+console.log (accountBalance);

@@ -35,3 +35,17 @@ console.log (accountBalance);
 let customerName = "Leonardo";
 let welcomeMessage = "Welcome Leonardo, enjoy the new season of theater";
 console.log (welcomeMessage);
+
+//Task 5
+let isLoggedIn = true;
+let hasAdminPrivileges = false;
+let hasGuestAccess = true;
+if (isLoggedIn && hasAdminPrivileges) {
+    console.log("Access granted. Welcome, Admin!");
+} else if (isLoggedIn && hasGrantedAccess) {
+    console.log("Access granted. Welcome, Guest!");
+} else if (isLoggedIn) {
+    console.log("Access granted. Welcome!");
+} else {
+    console.log("Access denied. Please log in.")
+}
